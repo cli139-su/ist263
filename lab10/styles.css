@@ -1,0 +1,23 @@
+body {font-family: Garamond, serif; background-color:#d6c7c7;}
+nav {background-color: #a0787e;}
+nav a {color:#ddadad}
+nav a:hover {background-color:#aec8ce;}
+nav {padding:10px}
+nav{margin-bottom:30px}
+
+@media only screen and (max-width:800px){
+    nav a {max-width: 100%; display: block; padding: 5px;}
+    nav span {display: none;}
+
+}
+
+.img {max-width: 100%;}
+.biopic {max-width:100%; }
+p {color:#b88c8c;}
+h1, h2 {color:#b88c8c}
+a {color:#b88c8c}
+
+
+h1{font-size: 2.5em;}
+h2{font-size: 2em;}
+.evenrow {background-color: #ddadad;}
