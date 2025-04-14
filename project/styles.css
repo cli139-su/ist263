@@ -1,0 +1,39 @@
+body {font-family: Garamond, serif; background-color:#ffffff;}
+nav {background-color: #ffffff;}
+nav a {color:#d1d2f3}
+nav a:hover {background-color:#aec8ce;}
+nav {padding:10px}
+nav{margin-bottom:30px; margin-top: 35px; margin-left: 10px; margin-right: 10%;}
+
+@media only screen and (max-width:800px){
+    nav a {max-width: 100%; display: block; padding: 5px;}
+    nav span {display: none;}
+
+}
+hr { border: none;
+    height: 2px;
+    background-color: #9ca9e8;}
+
+    img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover; /* keeps it from looking stretched */;
+      }
+.biopic {max-width:100%; }
+p {color:#6466a3;  margin: 1em; max-width: 30%;}
+h1, h2 {color:#6466a3; margin: 1em;}
+h3 {color: #6466a3; align-items: center;}
+a {color:#b88c8c}
+h3 a:visited {color:#9ca9e8;}
+form {color: #9ca9e8; border:#9ca9e8; margin: 1em;}
+input[type="submit"] {
+    background-color: #6466a3; /* or any color you like */
+    color: white;             /* text color */
+    border: none;             /* optional: removes default border */
+    padding: 10px 20px;       /* gives it some space */
+    cursor: pointer;          /* changes cursor on hover */
+    border-radius: 5px;       /* rounded corners */
+}
+footer {background-color: #3f51b5; color: #ffffff; padding: 1em;}
+
+
