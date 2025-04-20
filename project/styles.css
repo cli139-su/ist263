@@ -36,4 +36,9 @@ input[type="submit"] {
 }
 footer {background-color: #3f51b5; color: #ffffff; padding: 1em;}
 
+.skip {background-color: #dfa4d5; padding: 8px; border: 2px solid #ffffff; text-decoration: none; position: absolute; /*positions relative to top and bottom of viewport*/;top: 10px; left: -999px; /*push off screen*/; 
+}
+.skip:focus {/*when the button is tabbed to*/ left: 10px;}
+
+
 
