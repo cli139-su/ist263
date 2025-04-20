@@ -1,6 +1,6 @@
 body {font-family: Garamond, serif; background-color:#ffffff;}
 nav {background-color: #ffffff;}
-nav a {color:#d1d2f3}
+nav a {color:#52549b}
 nav a:hover {background-color:#aec8ce;}
 nav {padding:10px}
 nav{margin-bottom:30px; margin-top: 35px; margin-left: 10px; margin-right: 10%;}
@@ -24,8 +24,8 @@ p {color:#6466a3;  margin: 1em; max-width: 30%;}
 h1, h2 {color:#6466a3; margin: 1em;}
 h3 {color: #6466a3; align-items: center;}
 a {color:#b88c8c}
-h3 a:visited {color:#9ca9e8;}
-form {color: #9ca9e8; border:#9ca9e8; margin: 1em;}
+h3 a:visited {color:#52549b;}
+form {color: #52549b; border:#52549b; margin: 1em;}
 input[type="submit"] {
     background-color: #6466a3; /* or any color you like */
     color: white;             /* text color */
