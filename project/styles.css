@@ -41,4 +41,17 @@ footer {background-color: #3f51b5; color: #ffffff; padding: 1em;}
 .skip:focus {/*when the button is tabbed to*/ left: 10px;}
 
 
+p, h1, h2, h3, a, form, nav {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+  }
+
+
+
+
 
