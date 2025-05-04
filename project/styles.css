@@ -24,8 +24,16 @@ p {color:#6466a3;  margin: 1em; max-width: 30%;}
 h1, h2 {color:#6466a3; margin: 1em;}
 h3 {color: #6466a3; align-items: center;}
 a {color:#020684}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
 h3 a:visited {color:#52549b;}
-form {color: #52549b; border:#52549b; margin: 1em;}
+form {color: #52549b; border:#52549b; margin: 2em;}
 input[type="submit"] {
     background-color: #6466a3; /* or any color you like */
     color: white;             /* text color */
@@ -34,7 +42,7 @@ input[type="submit"] {
     cursor: pointer;          /* changes cursor on hover */
     border-radius: 5px;       /* rounded corners */
 }
-footer {background-color: #3f51b5; color: #ffffff; padding: 1em;}
+footer {background-color: #52549b; color: #ffffff; padding: 1em;}
 
 .skip {background-color: #dfa4d5; padding: 8px; border: 2px solid #ffffff; text-decoration: none; position: absolute; /*positions relative to top and bottom of viewport*/;top: 10px; left: -999px; /*push off screen*/; 
 }
@@ -51,7 +59,140 @@ p, h1, h2, h3, a, form, nav {
       "YTLC" 500;
   }
 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #52549b;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #aec8ce;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
 
 
 
+  h1 a {
+    text-decoration: none;
+    color: #6466a3; /* or your preferred brand color */
+  }
+  
+  h1 a:hover {
+    text-decoration: underline;
+  }
+  .explore-section {
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 900px;
+    text-align: center;
+  }
+  
+  .explore-section img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 1em 0;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  
+  .explore-section p {
+    color: #6466a3;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 1em auto;
+    max-width: 700px;
+  }
+  .top {display: flex;}
+
+  .contact-section {
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 900px;
+    text-align: center;
+  }
+  
+  .contact-section img.profile {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 12px;
+    margin: 1.5em auto;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .contact-section p {
+    max-width: none; /* override the 30% global setting */
+    margin: 1em auto;
+    font-size: 1.1em;
+    color: #6466a3;
+  }
+  
+  .contact-section iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    border: 0;
+    margin-top: 2em;
+  }
+  .linkedin-logo {
+    display: block;
+    margin: 1em auto;
+    width: 80px;
+    height: auto;
+    object-fit: contain;
+  }
+  .popular {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 30px;
+    text-align: center;
+    margin: 2em 0;
+  }
+  .meatcontainer {
+  margin: 3em;
+  }
+  .recipe-intro {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    margin: 2em 0;
+  }
+  
+  .recipe-intro img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  
+  .recipe-intro p {
+    flex: 1 1 300px;
+    max-width: 600px;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #6466a3;
+  }

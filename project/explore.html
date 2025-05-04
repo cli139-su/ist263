@@ -1,42 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explore</title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explore</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
 
 <body>
-    <h1>Cat in College</h1>
-    <nav>
-        <a href="home.html">Home |</a>
-        <a href="recipes.html">Recipes |</a>
-        <a href="explore.html">Explore |</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-    <h2>Budget Meals</h2>
-    <img src="images/bibimbap.jpg" alt="bibimbap">
-    <p>How do you budget for you meals? How do I begin?</p>
-    <br>
-    <h2>Meal Prepping</h2>
-    <img src="images/Sake_chazuke_by_matsukawa1971.jpg" alt="ochazuke">
-    <p>What are the best ingredients to keep in your pantry? What containers do you recommend? How do you not get sick of eating the same meal for several days? Click here to find out how to meal prep according to your needs!</p>
-    <h2>Quick Ideas</h2>
-    <img src="images/mapotofu.jpg" alt="mapo tofu">
-    <p>Here is a step-by-step guide on how to whip up something quick without measurements when you are in a hurry. As long as you have the basic ingredients and seasoning, you can make anything tasty! Find out how you can be a pro-student chef in the kitchen by clicking this page!</p>
-    <h2>Appliance Guide</h2>
-    <img src="images/pressure.jpg" alt="pressure cooker">
-    <p>Air-frier, rice cookers, blenders, toasters, microwaves, etc. Personally, my favorite appliance is my pressure cooker instant pot. However, many of these appliances have their pros and cons. Read this article to see if you are well suited for any of these appliances to save space in your apartment, time, and money!</p>
-    <footer>
-        <hr>
-        
-        &copy;2025
+    <div class="top">
+        <h1><a href="home.html">Cat in College</a></h1>
+        <nav>
+          <a href="home.html">Home |</a>
+          <div class="dropdown">
+            <a href="recipes.html">Recipes ▼ |</a>
+            <div class="dropdown-content">
+              <a href="recipes.html">All Recipes</a>
+              <a href="https://www.justonecookbook.com/matcha-tiramisu/" target="_blank" rel="noopener">Cat's Fixation Right Now</a>
+              <a href="lionhead.html">Recipe of the Month</a>
+            </div>
+          </div>
+          <a href="explore.html">Explore |</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+
+  <hr />
+
+  <div class="explore-section">
+    <a href="https://pupswithchopsticks.com/favorite-cheap-and-easy-recipes-i-love-to-make-in-the-summer/" target="_blank" rel="noopener">
+        <h2>Budget Meals</h2>
+        <img src="images/bibimbap.jpg" alt="bibimbap" />
+      </a>
+      <p>How do you budget for your meals? How do I begin?</p>
+  </div>
+
+  <div class="explore-section">
+    <a href="https://mealpreponfleek.com/25-best-asian-meal-prep-recipes/" target="_blank" rel="noopener">
+        <h2>Meal Prepping</h2>
+        <img src="images/Sake_chazuke_by_matsukawa1971.jpg" alt="ochazuke" />
+      </a>
+      <p>What are the best ingredients to keep in your pantry? What containers do you recommend? How do you not get sick of eating the same meal for several days? Click here to find out how to meal prep according to your needs!</p>
+  </div>
+
+  <div class="explore-section">
+    <a href="https://www.foodnetwork.com/recipes/photos/30-minute-dinner-recipes" target="_blank" rel="noopener">
+        <h2>Quick Ideas</h2>
+        <img src="images/mapotofu.jpg" alt="mapo tofu" />
+      </a>
+      <p>Here is a step-by-step guide on how to whip up something quick without measurements when you are in a hurry. As long as you have the basic ingredients and seasoning, you can make anything tasty! Find out how you can be a pro-student chef in the kitchen by clicking this page!</p>
+  </div>
+
+  <div class="explore-section">
+    <a href="https://www.seriouseats.com/favorite-countertop-appliances" target="_blank" rel="noopener">
+        <h2>Appliance Guide</h2>
+        <img src="images/pressure.jpg" alt="pressure cooker" />
+      </a>
+      <p>Air-fryer, rice cookers, blenders, toasters, microwaves, etc. Personally, my favorite appliance is my pressure cooker instant pot. However, many of these appliances have their pros and cons. Read this article to see if you are well suited for any of these appliances to save space in your apartment, time, and money!</p>
+  </div>
+
+  <footer>
+    
+    &copy;2025
+  </footer>
 </body>
-
 </html>
-

@@ -10,9 +10,19 @@
         .top {display: flex;}
         .popular {display: flex; justify-content: space-around;}
         .me {display: flex;}
-        .latest {display:flex; justify-content: space-around;}
+        .latest {display:flex; justify-content: space-around; text-align: center;}
         .form {display: flex;}
+        .popular div {text-align: center;}
+        .me {background-color: #efe6f2;border-radius: 1em; margin: 1em;}
+        .me img {
+  display: block;
+  margin: 4em;
+  width: 100%;
+  max-width: 350px;
+  border-radius: 10px;
+  object-fit: cover;}
         </style>
+        
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,10 +33,18 @@
 
 <body>
     <div class="top">
-        <h1>Cat in College</h1>
+        <h1><a href="home.html">Cat in College</a></h1>
         <nav>
             <a href="home.html">Home |</a>
-            <a href="recipes.html">Recipes |</a>
+            <div class="dropdown">
+                <a href="recipes.html">Recipes ▼ |</a>
+                <div class="dropdown-content">
+                  <a href="recipes.html">All Recipes</a>
+                  <a href="https://www.justonecookbook.com/matcha-tiramisu/" target="_blank" rel="noopener">Cat's Fixation Right Now</a>
+                  <a href="lionhead.html">Recipe of the Month</a>
+                </div>
+              </div>
+  
             <a href="explore.html">Explore |</a>
             <a href="contact.html">Contact</a>
            
@@ -37,23 +55,23 @@
         <h2>Popular Recipes</h2>
         <div class="popular">
             <div>
-               <a href="https://thewoksoflife.com/ma-po-tofu-real-deal/"><h3>Mapo Tofu</h3>
+               <a href="https://thewoksoflife.com/ma-po-tofu-real-deal/" target="_blank" rel="noopener"><h3>Mapo Tofu</h3>
                 <img src="images/mapotofu.jpg" alt="mapo tofu"></a>
             </div>
             <div>
-                <a href="https://www.justonecookbook.com/matcha-tiramisu/"><h3>Matcha Tiramisu</h3>
+                <a href="https://www.justonecookbook.com/matcha-tiramisu/" target="_blank" rel="noopener"><h3>Matcha Tiramisu</h3>
                 <img src="images/Matcha_Tiramisu_1_2023-04-24.jpeg" alt="Matcha Tiramisu"></a>
             </div>
             <div>
-                <a href="https://cookieandkate.com/pasta-e-fagioli-recipe/"><h3>Pasta and Beans</h3>
+                <a href="https://cookieandkate.com/pasta-e-fagioli-recipe/" target="_blank" rel="noopener"><h3>Pasta and Beans</h3>
                <img src="images/pasta.JPG" alt="pasta and beans"></a>
             </div>
             <div>
-                <a href="https://www.americastestkitchen.com/articles/6390-oats-swing-savory"><h3>Savory Oats</h3>
+                <a href="https://www.americastestkitchen.com/articles/6390-oats-swing-savory" target="_blank" rel="noopener"><h3>Savory Oats</h3>
                <img src="images/oatmeal.JPG" alt="oatmeal"></a>
             </div>
             <div>
-               <a href="https://omnivorescookbook.com/chinese-tea-eggs/"><h3>Tea Eggs</h3>
+               <a href="https://omnivorescookbook.com/chinese-tea-eggs/" target="_blank" rel="noopener"><h3>Tea Eggs</h3>
                <img src="images/egg.jpg" alt="tea egg"></a>
             </div>
         </div>
@@ -79,19 +97,19 @@
         </h2>
         <div class="latest">
             <div>
-                <a href="https://thewoksoflife.com/lions-head-meatballs/"><h3>Lion Head Meatballs</h3>
+                <a href="lionhead.html"><h3>Lion Head Meatballs</h3>
                <img src="images/Lions_head_meatballs_in_brown_sauce.jpg" alt="Lions Head's Meatballs"></a>
             </div>
             <div>
-                <a href="https://www.erinliveswhole.com/healthy-baked-brownie-oatmeal/"><h3>Brownie Oats</h3>
+                <a href="https://www.erinliveswhole.com/healthy-baked-brownie-oatmeal/" target="_blank" rel="noopener"><h3>Brownie Oats</h3>
                <img src="images/brownieoats.jpg" alt="brownie oats"></a>
             </div>
             <div>
-                <a href="https://www.simplywhisked.com/rotisserie-chicken-pho/"><h3>Rotisserie Pho</h3>
+                <a href="https://www.simplywhisked.com/rotisserie-chicken-pho/" target="_blank" rel="noopener"><h3>Rotisserie Pho</h3>
                 <img src="images/pho.jpg" alt="pho"></a>
             </div>
             <div>
-                <a href="https://futuredish.com/dak-hanmari-koreas-one-chicken-soup/"><h3>Chicken Soup</h3>
+                <a href="https://futuredish.com/dak-hanmari-koreas-one-chicken-soup/" target="_blank" rel="noopener"><h3>Chicken Soup</h3>
                 <img src="images/chickensoup.JPG" alt="soup"></a>
             </div>
      </div>

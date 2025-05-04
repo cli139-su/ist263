@@ -2,36 +2,59 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipes</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recipes</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet" />
+  <style>
+    .popular {margin: 2em;}
+  </style>
 </head>
 
 <body>
-    <h1>Cat in College</h1>
+  <div class="top">
+    <h1><a href="home.html">Cat in College</a></h1>
     <nav>
-        <a href="home.html">Home |</a>
-        <a href="recipes.html">Recipes |</a>
-        <a href="explore.html">Explore |</a>
-        <a href="contact">Contact</a>
+      <a href="home.html">Home |</a>
+      <div class="dropdown">
+        <a href="recipes.html">Recipes ▼ |</a>
+        <div class="dropdown-content">
+          <a href="recipes.html">All Recipes</a>
+          <a href="https://www.justonecookbook.com/matcha-tiramisu/" target="_blank" rel="noopener">Cat's Fixation Right Now</a>
+          <a href="lionhead.html">Recipe of the Month</a>
+        </div>
+      </div>
+      <a href="explore.html">Explore |</a>
+      <a href="contact.html">Contact</a>
     </nav>
+  </div>
 
+  <hr />
+
+  <main>
     <h2>Recipes</h2>
-    <a href="lionhead.html"><h3>Lion Head Meatballs</h3></a>
 
-    <a href="lionhead.html"><img src="images/Lions_head_meatballs_in_brown_sauce.jpg" alt="Lion Head Meatballs"></a>
-    <h3>Savory Oats</h3>
-    <img src="images/oatmeal.JPG" alt="Savory Oats">
+    <div class="popular">
+      <div>
+        <a href="lionhead.html">
+          <h3>Lion Head Meatballs</h3>
+          <img src="images/Lions_head_meatballs_in_brown_sauce.jpg" alt="Lion Head Meatballs" />
+        </a>
+      </div>
+      <div>
+        <h3>Savory Oats</h3>
+        <img src="images/oatmeal.JPG" alt="Savory Oats" />
+      </div>
+    </div>
+  </main>
 
- <footer>
-        <hr>
-        
-        &copy;2025
+  <footer>
+ 
+    &copy;2025
+  </footer>
 </body>
 
 </html>
-
